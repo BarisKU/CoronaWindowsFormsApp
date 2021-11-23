@@ -48,7 +48,7 @@ namespace CoronaApp
                 else if (cbBogaz.Checked && cbOksuruk.Checked)
                     koronaMi = true;
 
-                tbSonuc.Text = "";
+                tbSonuc.Text = "Hoşgeldiniz..";
                 tbSonuc.Text += " Ad Soyad: " + kisi.AdSoyad;
                 tbSonuc.Text += "\r\n Sehir: " + kisi.SehirId;
                 tbSonuc.Text += "\r\n Yas: " + kisi.Yas;
