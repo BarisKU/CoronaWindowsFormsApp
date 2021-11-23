@@ -81,5 +81,6 @@ namespace CoronaApp
             ddlSehir.ValueMember = "Value";
             ddlSehir.DisplayMember = "Text";
         }
+
     }
 }

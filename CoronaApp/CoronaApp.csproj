@@ -75,6 +75,12 @@
     <Compile Include="YardımForm.Designer.cs">
       <DependentUpon>YardımForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="YuzdeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YuzdeForm.Designer.cs">
+      <DependentUpon>YuzdeForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="YardımForm.resx">
       <DependentUpon>YardımForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YuzdeForm.resx">
+      <DependentUpon>YuzdeForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

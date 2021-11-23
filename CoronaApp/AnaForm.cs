@@ -38,5 +38,13 @@ namespace CoronaApp
             form.WindowState = FormWindowState.Maximized;
             form.Show();
         }
+
+        private void yüzdeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            YuzdeForm form = new YuzdeForm();
+            form.MdiParent = this;
+            form.WindowState = FormWindowState.Maximized;
+            form.Show();
+        }
     }
 }

@@ -233,6 +233,7 @@ namespace CoronaApp
             this.tbSonuc.ReadOnly = true;
             this.tbSonuc.Size = new System.Drawing.Size(794, 108);
             this.tbSonuc.TabIndex = 5;
+    
             // 
             // BelirtiForm
             // 

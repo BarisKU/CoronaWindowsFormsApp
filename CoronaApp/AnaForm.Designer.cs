@@ -31,9 +31,9 @@ namespace CoronaApp
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tespitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.belirtiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yüzdeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,13 +57,6 @@ namespace CoronaApp
             this.tespitToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.tespitToolStripMenuItem.Text = "Tespit";
             // 
-            // yardımToolStripMenuItem
-            // 
-            this.yardımToolStripMenuItem.Name = "yardımToolStripMenuItem";
-            this.yardımToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
-            this.yardımToolStripMenuItem.Text = "Yardım";
-            this.yardımToolStripMenuItem.Click += new System.EventHandler(this.yardımToolStripMenuItem_Click);
-            // 
             // belirtiToolStripMenuItem
             // 
             this.belirtiToolStripMenuItem.Name = "belirtiToolStripMenuItem";
@@ -76,6 +69,14 @@ namespace CoronaApp
             this.yüzdeToolStripMenuItem.Name = "yüzdeToolStripMenuItem";
             this.yüzdeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yüzdeToolStripMenuItem.Text = "Yüzde";
+            this.yüzdeToolStripMenuItem.Click += new System.EventHandler(this.yüzdeToolStripMenuItem_Click);
+            // 
+            // yardımToolStripMenuItem
+            // 
+            this.yardımToolStripMenuItem.Name = "yardımToolStripMenuItem";
+            this.yardımToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.yardımToolStripMenuItem.Text = "Yardım";
+            this.yardımToolStripMenuItem.Click += new System.EventHandler(this.yardımToolStripMenuItem_Click);
             // 
             // AnaForm
             // 
